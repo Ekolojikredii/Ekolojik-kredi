@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veri Giriş</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data-entry.js"></script>
+</head>
+<body>
+  <div id="data-entry-container">
+    <h2>Veri Girişi</h2>
+    <form id="data-entry-form">
+      <input type="text" id="committee-name" placeholder="Komite Adı" required>
+      <input type="password" id="committee-password" placeholder="Komite Şifresi" required>
+      <button type="submit">Veri Girişi Yap</button>
+    </form>
+    <div id="data-section" class="hidden">
+      <input type="text" id="school-name" placeholder="Okul Adı" required>
+      <input type="text" id="school-id" placeholder="Okul Numarası" required>
+      <input type="text" id="waste-type" placeholder="Atık Türü" required>
+      <input type="number" id="waste-amount" placeholder="Atık Miktarı (kg)" required>
+      <button id="submit-data">Veri Kaydet</button>
+    </div>
+  </div>
+</body>
+</html>
